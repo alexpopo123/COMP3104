@@ -1,9 +1,10 @@
 language: generic
+node_js:
+  - "16.17.1"
 deploy:
-  provider: s3
-  access_key_id: "$AWS_ACCESS_KEY"
-  secret_access_key: "$AWS_SECRET_KEY"
-  bucket: "$BUCKET"
-  region: "$REGION"
-  acl: public_read
+  provider: pages
   skip_cleanup: true
+  github_token: $github_token
+  local_dir: build
+  on:
+    branch: main
