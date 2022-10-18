@@ -34,7 +34,7 @@ jobs:
         uses: actions/setup-node@v2 
         with:
           node-version: "14.x"
-          
+
       # install project dependencies
       - name: Install dependencies
         run: npm install
@@ -49,4 +49,4 @@ jobs:
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "comp3104-devops-101349856" #Must be unique in Heroku
-          heroku_email: "alextsangjoker888@gmail.com"
+          heroku_email: sss"alextsangjoker888@gmail.com"
