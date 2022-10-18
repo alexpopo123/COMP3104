@@ -49,4 +49,4 @@ jobs:
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "comp3104-devops-101349856" #Must be unique in Heroku
-          heroku_email: sss"alextsangjoker888@gmail.com"
+          heroku_email: "alextsangjoker888@gmail.com"
